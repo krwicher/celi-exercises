@@ -5,5 +5,8 @@
 	],
 	"/exercises/new": [
 		"src/routes/+layout.ts"
+	],
+	"/exercises/[id]/edit": [
+		"src/routes/+layout.ts"
 	]
 }

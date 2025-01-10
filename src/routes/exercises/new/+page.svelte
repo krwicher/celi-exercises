@@ -27,7 +27,7 @@
 
       // Redirect to the exercise list
       await goto('/');
-    } catch (e) {
+    } catch (e: any) {
       error = e.message;
     } finally {
       loading = false;
